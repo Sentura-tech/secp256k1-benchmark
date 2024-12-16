@@ -1,0 +1,17 @@
+[package]
+name = "secp256k1-benchmark"
+version = "0.1.0"
+edition = "2021"
+
+
+
+[dependencies]
+secp256k1 = { version = "0.30.0", features = ["rand", "hashes"] }
+rand = "0.8.5"
+rayon = "1.8.0"
+num_cpus = "1.16.0"
+chrono = "0.4.31"
+
+
+
+
